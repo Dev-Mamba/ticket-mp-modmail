@@ -3,7 +3,7 @@ const functions = require("../../functions/functions");
 
 exports.run = async (bot, message, args) => {
 
-    if(message.channel.type !== "dm" && !message.author.bot && !message.channel.name.startsWith(`mp-`) && !isNaN(message.channel.topic)) return functions.error(message.channel, "This command can only be executed in a help room.");
+    if(message.channel.type !== "dm" && !message.author.bot && !message.channel.name.startsWith(`mp-`) && !isNaN(message.channel.topic)) return functions.error(message.channel, "Cette commande ne peut être exécutée que dans un salons de ticket.");
 
     guildSupport = bot.guilds.cache.find(c => c.id === bot.config.serverID);
     if(!guildSupport) return console.log(`Aucun serveur valide n'a été défini comme serveur de support.`);
