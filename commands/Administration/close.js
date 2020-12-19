@@ -27,7 +27,7 @@ exports.run = async (bot, message, args) => {
     .setFooter(`Renvoyez un message pour rouvrir un ticket.`)
     .setDescription(`Votre ticket a été fermé par un membre de notre équipe. Si vous pensez qu'il a fait une erreur, n'hésitez pas à la rouvrir en envoyant un message.`)
     .addField(`Comment supprimer tous les messages ?`, [
-        `Vous pouvez supprimer tous les messages du bot en envoyant : \`clear svp.\``
+        `Vous pouvez supprimer tous les messages du bot en envoyant : \`clear svp\``
     ]);
 
     user.send(closeEmbed)
