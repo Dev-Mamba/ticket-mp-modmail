@@ -97,6 +97,6 @@ node index.js
 
 ## ✍️ | Auteur <a name = "authors"></a>
 
-- [@julioju](https://github.com/julioju1015) -Developpeur
+- [@julioju](https://github.com/julioju1015) - Developpeur
 
 
