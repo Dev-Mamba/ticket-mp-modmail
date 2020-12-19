@@ -7,7 +7,7 @@
 
 ---
 
-<p align="center"> 🤖 Un bot discord OpenSource qui permet douvir des ticket entre le staffs et les utilisateurs via mp.
+<p align="center"> 🤖 Un bot discord OpenSource qui permet d'ouvir des tickets entre le staff et les utilisateurs via mp.
     <br> 
 </p>
 
@@ -23,7 +23,7 @@
 
 ## 🧐 | À propos <a name = "about"></a>
 
-Un bot discord OpenSource qui permet douvir des ticket entre le staffs et les utilisateurs via mp.
+Un bot discord OpenSource qui permet d'ouvir des tickets entre le staff et les utilisateurs via mp.
 
 
 ## 💭 | Fonctionnement <a name = "working"></a>
@@ -83,7 +83,7 @@ node index.js
 ```
 
 ## 🚀 | Déploiement du Bot <a name = "deployment"></a>
-## Version hébergée disponible sur le serveur de la team :
+## Version hébergée disponible sur le serveur de l'équipe :
 - [Discord](https://discord.gg/W5vM25ec7e)
 
 ---
