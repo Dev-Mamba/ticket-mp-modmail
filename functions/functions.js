@@ -29,17 +29,17 @@ module.exports = {
         })
     },
 
-    error: function(channel, text) {
+    error: function(channel) {
         let errorEmbed = new Discord.MessageEmbed()
         .setColor(color.red)
-        .setDescription(`\\🛑 **Erreur :** ${text}`);
+        .setDescription(`\\🛑 **Erreur ** `);
         channel.send(errorEmbed).catch(e => {console.log(e)});
     }, 
 
-    success: function(channel, text) {
+    success: function(channel) {
         let errorEmbed = new Discord.MessageEmbed()
         .setColor(color.green)
-        .setDescription(`\\✅ **Succès :** ${text}`);
+        .setDescription(`\\✅ **Succès **`);
         channel.send(errorEmbed).catch(e => {console.log(e)});
     }, 
 
