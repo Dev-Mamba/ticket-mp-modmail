@@ -7,7 +7,7 @@ exports.run = async (bot, message, args, hastebin) => {
 
     if(message.channel.type !== "dm" && !message.author.bot && !message.channel.name.startsWith(`mp-`) && !isNaN(message.channel.topic)) return functions.error(message.channel, "Cette commande ne peut être exécutée que dans un salons de ticket.");
 
- const channelstaff = bot.channels.cache.get("797540597836808193");
+ const channelstaff = bot.channels.cache.get("ID CHANNEL LOGS");
 
     if(!channelstaff) return;
 
