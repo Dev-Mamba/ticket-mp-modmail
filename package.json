@@ -1,7 +1,7 @@
 {
   "name": "modmail",
   "version": "1.0.0",
-  "description": "Developed by Vi.",
+  "description": "Developed by julioju.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
